@@ -3,11 +3,11 @@
 Primeramente se importan las siguientes librerias: 
 - from config import *
 - import tweepy
--import datetime
--import pandas as pd
--import re
--from wordcloud import WordCloud
--from textblob import TextBlob
+- import datetime
+- import pandas as pd
+- import re
+- from wordcloud import WordCloud
+- from textblob import TextBlob
 En la primera parte del trabajo se acceden a los tokens para admitir las credenciales y su posterior autenticacion.
 Luego se crea un input donde se inserta el tema seleccionado a buscar los hashtaqs de los tweets
 A su vez se le consulta al usuario tambien con un input la cantidad de tweets a traer
